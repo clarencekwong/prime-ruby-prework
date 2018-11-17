@@ -2,26 +2,26 @@
 
 def prime?(num)
   if num == 2
-    puts true
+    true
   end
   if num == 3
-    puts true
+    true
   end
   if num % 2 == 0
-    puts false
+    false
   end
   if num % 3 == 0
-    puts false
+    false
   end
   i = 5
   w = 2
   
   while (i * i) <= num 
     if num % i == 0
-      puts false
+      false
     end
     i += w
     w = 6 - w
-  puts true
+  true
   end
 end
