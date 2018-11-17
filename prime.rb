@@ -3,12 +3,16 @@
 def prime?(num)
   if num == 2
     return True
+  end
   if num == 3
     return True
+  end
   if n % 2 == 0
     return False
+  end
   if n % 3 == 0
     return False
+  end
   i = 5
   w = 2
   
@@ -18,4 +22,5 @@ def prime?(num)
     i += w
     w = 6 - w
   return True
+  end
 end
