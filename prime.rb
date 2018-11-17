@@ -1,18 +1,18 @@
 # Add  code here!
 
 def prime?(number)
-	if number.abs == 0 or number.abs == 1
+	if number == 0 or number == 1 or number < 1
 		return false
 	end
 
 	i = 2
-	limit = number.abs / i
+	limit = number / i
 	while i <= limit
-		if number.abs % i == 0
+		if number % i == 0
 			return false
 		end
 		i += 1
-		limit = number.abs / i
+		limit = number / i
 	end
 	return true
 end
