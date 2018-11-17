@@ -2,10 +2,10 @@
 
 def prime?(num)
   if num == 2
-    return True
+    return TRUE
   end
   if num == 3
-    return True
+    return TRUE
   end
   if n % 2 == 0
     return False
