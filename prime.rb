@@ -8,20 +8,20 @@ def prime?(num)
     return TRUE
   end
   if n % 2 == 0
-    return False
+    return FALSE
   end
   if n % 3 == 0
-    return False
+    return FALSE
   end
   i = 5
   w = 2
   
   while (i * i) <= num 
     if n % i == 0
-      return False
+      return FALSE
     end
     i += w
     w = 6 - w
-  return True
+  return TRUE
   end
 end
