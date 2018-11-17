@@ -6,13 +6,13 @@ def prime?(number)
 	end
 
 	i = 2
-	limit = number / i
+	limit = number.abs / i
 	while i < limit
-		if number % i == 0
+		if number.abs % i == 0
 			return false
 		end
 		i += 1
-		limit = number / i
+		limit = number.abs / i
 	end
 	return true
 end
