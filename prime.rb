@@ -2,6 +2,6 @@
 
 def prime?(x)
   if x == 3
-    puts 1==1
+    return true
   end
 end
