@@ -1,17 +1,11 @@
 # Add  code here!
 
 def prime?(num)
-  if num == 2
-    true
+  if num == 2 or num == 3
+    return true
   end
-  if num == 3
-    true
-  end
-  if num % 2 == 0
-    false
-  end
-  if num % 3 == 0
-    false
+  if (num % 2 == 0) or (num % 3 == 0)
+    return false
   end
   i = 5
   w = 2
