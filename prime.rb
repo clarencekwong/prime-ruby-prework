@@ -1,6 +1,6 @@
 # Add  code here!
 
-def prime?(x)
+def prime?(num)
   if num == 2 or num == 3
     return true
   end
