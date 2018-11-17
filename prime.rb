@@ -2,6 +2,6 @@
 
 def prime?(num)
   if num == 3
-    return true
+    return 1==1
   end
 end
